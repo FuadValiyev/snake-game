@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e0f7fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #00796b;
+}
+
+#scores {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+#scores div {
+    background-color: #004d40;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#gameArea {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    background-color: #004d40;
+    border: 5px solid #00796b;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+#snake {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #00e676;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #00c853;
+}
+
+#food {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #ff5252;
+    border-radius: 50%;
+    box-shadow: 0 0 5px #ff1744;
+}
